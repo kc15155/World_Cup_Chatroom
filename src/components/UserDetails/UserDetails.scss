@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  .details{
+	display:grid;
+	grid-template-rows: 1fr 0.3fr 1fr;
+  }
+  
+  .current-details{
+	grid-row: 1;
+	align-items:start;
+  }
+  
+  .change-details{
+  grid-row: 3;
+	align-items:end;
+  }
+}
+
+
+
+
+
+
+

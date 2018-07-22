@@ -1,0 +1,57 @@
+body {
+height:100%;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+	
+	.site {
+	left:20%;
+	right:20%;
+	position:absolute;
+	grid-gap: 5px;
+	display:grid;
+	grid-template-rows: 130px 500px 100px;
+	grid-template-columns: 1fr 4fr;
+	grid-template-areas:"header header"
+						"details chatbox"
+						"details floor";
+	
+	.spotim-header {
+	display: inline-block;
+	padding: 10px;
+	width:100%;
+	grid-area:header;
+    text-align: center;
+    background-color: #0082DD;
+    color: white;
+	
+	.spotim-title {
+		font-family: 'Tahoma';
+		font-size: 2.5em;
+			}
+		}
+	}
+	
+	.user-details{
+		text-align: center;
+		grid-area:details;
+	}
+	
+	.chat-box{
+		border: 2px solid black;
+		grid-area:chatbox;
+		overflow: scroll;
+		height:100%;
+	}
+	
+	.input-box{
+		display: inline-block;
+		padding: 5px;
+		text-align: center;
+		grid-area:floor;
+	}
+
+
+}
+
+
