@@ -1,6 +1,4 @@
 
-//This is your top level React component, you may change everything
-
 import React from 'react';
 import logo from '../assets/spotim-logo.jpg';
 import {Container, Image} from 'semantic-ui-react';
@@ -94,7 +92,7 @@ class App extends React.PureComponent {
       <Container className={'spotim-header'}>
         <div className={'spotim-title'}>
           <div>
-          Welcome to the Spot.IM Chat app
+          Welcome to the World Cup chat!
           </div>
           <div>
             <Logo>
